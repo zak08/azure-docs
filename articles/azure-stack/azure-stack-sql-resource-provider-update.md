@@ -94,7 +94,7 @@ $PfxPass = ConvertTo-SecureString "P@ssw0rd1" -AsPlainText -Force
   -PrivilegedEndpoint $privilegedEndpoint `
   -AzureEnvironment $AzureEnvironment `
   -DefaultSSLCertificatePassword $PfxPass `
-  -DependencyFilesLocalPath $tempDir\cert `
+  -DependencyFilesLocalPath $tempDir\cert
 
  ```
 
